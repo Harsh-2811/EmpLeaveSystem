@@ -2,10 +2,7 @@ package com.dao;
 
 import java.io.InputStream;
 
-
-
 import java.util.List;
-
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,8 +12,6 @@ import org.hibernate.query.Query;
 
 import com.bean.Employee;
 import com.bean.LeaveRequest;
-
-
 
 public class EmployeeDao {
 	public static int Register(Employee e)
