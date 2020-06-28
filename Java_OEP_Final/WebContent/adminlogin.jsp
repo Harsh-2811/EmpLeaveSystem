@@ -13,10 +13,10 @@
 	String Pass="";
 	admin=request.getParameter("AdminName");
 	Pass=request.getParameter("AdminPass");
-	if(admin.equalsIgnoreCase("Harsh") && Pass.equalsIgnoreCase("Harsh@2811"))
+	if(admin.equalsIgnoreCase("Admin") && Pass.equalsIgnoreCase("Admin"))
 	{
 		
-		session.setAttribute("AdminId", "harshpatel281199@gmail.com");
+		session.setAttribute("AdminId", "youremail");
 		
 		response.sendRedirect("AdminPanel.jsp");
 	}
